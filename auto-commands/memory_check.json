@@ -1,0 +1,7 @@
+{
+  "name": "memory_check",
+  "command": "vm_stat | grep 'Pages free'",
+  "trigger": "session_start",
+  "enabled": true,
+  "created": "2025-08-16T21:13:09.046070"
+}

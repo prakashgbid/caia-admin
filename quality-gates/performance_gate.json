@@ -1,0 +1,15 @@
+{
+  "name": "performance_gate",
+  "type": "quality_gate",
+  "enabled": true,
+  "config": {
+    "id": "C089",
+    "type": "QUALITY",
+    "name": "performance_gate",
+    "metrics": [
+      "latency",
+      "throughput"
+    ]
+  },
+  "created": "2025-08-16T21:17:16.745547"
+}

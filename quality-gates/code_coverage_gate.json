@@ -1,0 +1,12 @@
+{
+  "name": "code_coverage_gate",
+  "type": "quality_gate",
+  "enabled": true,
+  "config": {
+    "id": "C087",
+    "type": "QUALITY",
+    "name": "code_coverage_gate",
+    "threshold": 80
+  },
+  "created": "2025-08-16T21:17:16.745299"
+}

@@ -1,0 +1,560 @@
+{
+  "timestamp": "2025-08-16T21:13:09.049792",
+  "total_tasks": 82,
+  "successful": 77,
+  "failed": 5,
+  "elapsed_time": "0.01 seconds",
+  "results": [
+    {
+      "id": "C034",
+      "name": "disk_usage",
+      "type": "AUTO_CMD",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/auto-commands/disk_usage.json"
+    },
+    {
+      "id": "C027",
+      "name": "test_status",
+      "type": "AUTO_CMD",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/auto-commands/test_status.json"
+    },
+    {
+      "id": "C038",
+      "name": "performance_metrics",
+      "type": "AUTO_CMD",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/auto-commands/performance_metrics.json"
+    },
+    {
+      "id": "C041",
+      "name": "auto_categorizer",
+      "type": "DECISION",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/decisions/auto_categorizer.py"
+    },
+    {
+      "id": "C042",
+      "name": "decision_logger",
+      "type": "DECISION",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/decisions/decision_logger.py"
+    },
+    {
+      "id": "C036",
+      "name": "network_status",
+      "type": "AUTO_CMD",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/auto-commands/network_status.json"
+    },
+    {
+      "id": "C004",
+      "name": "start_context_daemon",
+      "type": "HOOK",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/hooks/start_context_daemon.sh"
+    },
+    {
+      "id": "C011",
+      "name": "load_environment_vars",
+      "type": "HOOK",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/hooks/load_environment_vars.sh"
+    },
+    {
+      "id": "C007",
+      "name": "backup_critical_decisions",
+      "type": "HOOK",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/hooks/backup_critical_decisions.sh"
+    },
+    {
+      "id": "C015",
+      "name": "telemetry_init",
+      "type": "HOOK",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/hooks/telemetry_init.sh"
+    },
+    {
+      "id": "C035",
+      "name": "process_check",
+      "type": "AUTO_CMD",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/auto-commands/process_check.json"
+    },
+    {
+      "id": "C026",
+      "name": "eslint_check",
+      "type": "AUTO_CMD",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/auto-commands/eslint_check.json"
+    },
+    {
+      "id": "C001",
+      "name": "pre_session_context_check",
+      "type": "HOOK",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/hooks/pre_session_context_check.sh"
+    },
+    {
+      "id": "C033",
+      "name": "memory_check",
+      "type": "AUTO_CMD",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/auto-commands/memory_check.json"
+    },
+    {
+      "id": "C006",
+      "name": "auto_log_session_start",
+      "type": "HOOK",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/hooks/auto_log_session_start.sh"
+    },
+    {
+      "id": "C032",
+      "name": "docker_status",
+      "type": "AUTO_CMD",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/auto-commands/docker_status.json"
+    },
+    {
+      "id": "C021",
+      "name": "caia_status_on_start",
+      "type": "AUTO_CMD",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/auto-commands/caia_status_on_start.json"
+    },
+    {
+      "id": "C013",
+      "name": "verify_dependencies",
+      "type": "HOOK",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/hooks/verify_dependencies.sh"
+    },
+    {
+      "id": "C020",
+      "name": "quick_status_on_start",
+      "type": "AUTO_CMD",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/auto-commands/quick_status_on_start.json"
+    },
+    {
+      "id": "C030",
+      "name": "security_scan",
+      "type": "AUTO_CMD",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/auto-commands/security_scan.json"
+    },
+    {
+      "id": "C040",
+      "name": "keyword_detector",
+      "type": "DECISION",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/decisions/keyword_detector.py"
+    },
+    {
+      "id": "C003",
+      "name": "validate_admin_system",
+      "type": "HOOK",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/hooks/validate_admin_system.sh"
+    },
+    {
+      "id": "C031",
+      "name": "build_status",
+      "type": "AUTO_CMD",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/auto-commands/build_status.json"
+    },
+    {
+      "id": "C039",
+      "name": "roadmap_status",
+      "type": "AUTO_CMD",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/auto-commands/roadmap_status.json"
+    },
+    {
+      "id": "C025",
+      "name": "typescript_check",
+      "type": "AUTO_CMD",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/auto-commands/typescript_check.json"
+    },
+    {
+      "id": "C005",
+      "name": "session_id_generator",
+      "type": "HOOK",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/hooks/session_id_generator.sh"
+    },
+    {
+      "id": "C009",
+      "name": "update_context_if_needed",
+      "type": "HOOK",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/hooks/update_context_if_needed.sh"
+    },
+    {
+      "id": "C029",
+      "name": "dependency_check",
+      "type": "AUTO_CMD",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/auto-commands/dependency_check.json"
+    },
+    {
+      "id": "C022",
+      "name": "context_summary",
+      "type": "AUTO_CMD",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/auto-commands/context_summary.json"
+    },
+    {
+      "id": "C008",
+      "name": "post_session_summary",
+      "type": "HOOK",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/hooks/post_session_summary.sh"
+    },
+    {
+      "id": "C024",
+      "name": "npm_audit",
+      "type": "AUTO_CMD",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/auto-commands/npm_audit.json"
+    },
+    {
+      "id": "C010",
+      "name": "health_check_directories",
+      "type": "HOOK",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/hooks/health_check_directories.sh"
+    },
+    {
+      "id": "C028",
+      "name": "coverage_report",
+      "type": "AUTO_CMD",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/auto-commands/coverage_report.json"
+    },
+    {
+      "id": "C023",
+      "name": "git_status_check",
+      "type": "AUTO_CMD",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/auto-commands/git_status_check.json"
+    },
+    {
+      "id": "C043",
+      "name": "decision_analyzer",
+      "type": "DECISION",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/decisions/decision_analyzer.py"
+    },
+    {
+      "id": "C037",
+      "name": "log_tail",
+      "type": "AUTO_CMD",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/auto-commands/log_tail.json"
+    },
+    {
+      "id": "C012",
+      "name": "setup_logging",
+      "type": "HOOK",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/hooks/setup_logging.sh"
+    },
+    {
+      "id": "C002",
+      "name": "load_latest_decisions",
+      "type": "HOOK",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/hooks/load_latest_decisions.sh"
+    },
+    {
+      "id": "C014",
+      "name": "cache_warmup",
+      "type": "HOOK",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/hooks/cache_warmup.sh"
+    },
+    {
+      "id": "C045",
+      "name": "decision_versioning",
+      "type": "DECISION",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/decisions/decision_versioning.py"
+    },
+    {
+      "id": "C060",
+      "name": "npm_publication_checker",
+      "type": "MONITOR",
+      "success": false,
+      "result": "'ParallelConfigImplementor' object has no attribute 'name'"
+    },
+    {
+      "id": "C061",
+      "name": "component_tracker",
+      "type": "MONITOR",
+      "success": false,
+      "result": "'ParallelConfigImplementor' object has no attribute 'name'"
+    },
+    {
+      "id": "C062",
+      "name": "quality_metrics",
+      "type": "MONITOR",
+      "success": false,
+      "result": "'ParallelConfigImplementor' object has no attribute 'name'"
+    },
+    {
+      "id": "C063",
+      "name": "performance_monitor",
+      "type": "MONITOR",
+      "success": false,
+      "result": "'ParallelConfigImplementor' object has no attribute 'name'"
+    },
+    {
+      "id": "C064",
+      "name": "error_tracker",
+      "type": "MONITOR",
+      "success": false,
+      "result": "'ParallelConfigImplementor' object has no attribute 'name'"
+    },
+    {
+      "id": "C046",
+      "name": "decision_search",
+      "type": "DECISION",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/decisions/decision_search.py"
+    },
+    {
+      "id": "C048",
+      "name": "decision_import",
+      "type": "DECISION",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/decisions/decision_import.py"
+    },
+    {
+      "id": "C051",
+      "name": "decision_approval",
+      "type": "DECISION",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/decisions/decision_approval.py"
+    },
+    {
+      "id": "C049",
+      "name": "decision_validation",
+      "type": "DECISION",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/decisions/decision_validation.py"
+    },
+    {
+      "id": "C044",
+      "name": "decision_backup",
+      "type": "DECISION",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/decisions/decision_backup.py"
+    },
+    {
+      "id": "C047",
+      "name": "decision_export",
+      "type": "DECISION",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/decisions/decision_export.py"
+    },
+    {
+      "id": "C080",
+      "name": "auto_load_context",
+      "type": "CONTEXT",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/context/auto_load_context.json"
+    },
+    {
+      "id": "C052",
+      "name": "decision_rollback",
+      "type": "DECISION",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/decisions/decision_rollback.py"
+    },
+    {
+      "id": "C050",
+      "name": "decision_notification",
+      "type": "DECISION",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/decisions/decision_notification.py"
+    },
+    {
+      "id": "C082",
+      "name": "active_decisions_tracker",
+      "type": "CONTEXT",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/context/active_decisions_tracker.json"
+    },
+    {
+      "id": "C053",
+      "name": "decision_metrics",
+      "type": "DECISION",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/decisions/decision_metrics.py"
+    },
+    {
+      "id": "C054",
+      "name": "decision_ai_suggest",
+      "type": "DECISION",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/decisions/decision_ai_suggest.py"
+    },
+    {
+      "id": "C081",
+      "name": "project_summary_display",
+      "type": "CONTEXT",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/context/project_summary_display.json"
+    },
+    {
+      "id": "C068",
+      "name": "queue_monitor",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/monitors/queue_monitor.py"
+    },
+    {
+      "id": "C065",
+      "name": "api_monitor",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/monitors/api_monitor.py"
+    },
+    {
+      "id": "C069",
+      "name": "log_aggregator",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/monitors/log_aggregator.py"
+    },
+    {
+      "id": "C066",
+      "name": "database_monitor",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/monitors/database_monitor.py"
+    },
+    {
+      "id": "C070",
+      "name": "alert_manager",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/monitors/alert_manager.py"
+    },
+    {
+      "id": "C073",
+      "name": "throughput_monitor",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/monitors/throughput_monitor.py"
+    },
+    {
+      "id": "C077",
+      "name": "compliance_monitor",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/monitors/compliance_monitor.py"
+    },
+    {
+      "id": "C071",
+      "name": "uptime_monitor",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/monitors/uptime_monitor.py"
+    },
+    {
+      "id": "C074",
+      "name": "resource_monitor",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/monitors/resource_monitor.py"
+    },
+    {
+      "id": "C076",
+      "name": "security_monitor",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/monitors/security_monitor.py"
+    },
+    {
+      "id": "C075",
+      "name": "dependency_monitor",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/monitors/dependency_monitor.py"
+    },
+    {
+      "id": "C078",
+      "name": "cost_monitor",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/monitors/cost_monitor.py"
+    },
+    {
+      "id": "C072",
+      "name": "latency_monitor",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/monitors/latency_monitor.py"
+    },
+    {
+      "id": "C084",
+      "name": "context_backup",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/context/context_backup.json"
+    },
+    {
+      "id": "C085",
+      "name": "context_restore",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/context/context_restore.json"
+    },
+    {
+      "id": "C079",
+      "name": "user_activity_monitor",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/monitors/user_activity_monitor.py"
+    },
+    {
+      "id": "C086",
+      "name": "context_merge",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/context/context_merge.json"
+    },
+    {
+      "id": "C083",
+      "name": "context_versioning",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/context/context_versioning.json"
+    },
+    {
+      "id": "C088",
+      "name": "security_gate",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/quality-gates/security_gate.json"
+    },
+    {
+      "id": "C087",
+      "name": "code_coverage_gate",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/quality-gates/code_coverage_gate.json"
+    },
+    {
+      "id": "C067",
+      "name": "cache_monitor",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/monitors/cache_monitor.py"
+    },
+    {
+      "id": "C091",
+      "name": "documentation_gate",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/quality-gates/documentation_gate.json"
+    },
+    {
+      "id": "C090",
+      "name": "dependency_gate",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/quality-gates/dependency_gate.json"
+    },
+    {
+      "id": "C089",
+      "name": "performance_gate",
+      "success": true,
+      "result": "/Users/MAC/Documents/projects/admin/quality-gates/performance_gate.json"
+    }
+  ],
+  "updated": "2025-08-16T21:17:16.746993"
+}

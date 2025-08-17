@@ -1,0 +1,12 @@
+{
+  "name": "security_gate",
+  "type": "quality_gate",
+  "enabled": true,
+  "config": {
+    "id": "C088",
+    "type": "QUALITY",
+    "name": "security_gate",
+    "severity": "high"
+  },
+  "created": "2025-08-16T21:17:16.745333"
+}

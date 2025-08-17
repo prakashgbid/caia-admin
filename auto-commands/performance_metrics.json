@@ -1,0 +1,7 @@
+{
+  "name": "performance_metrics",
+  "command": "top -l 1 | head -10",
+  "trigger": "session_start",
+  "enabled": true,
+  "created": "2025-08-16T21:13:09.046526"
+}

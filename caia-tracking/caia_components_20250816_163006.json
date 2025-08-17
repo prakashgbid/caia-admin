@@ -1,0 +1,94 @@
+{
+  "timestamp": "2025-08-16T16:30:06.586786",
+  "summary": {
+    "total_components": 1,
+    "published_components": 0,
+    "initialized_components": 1,
+    "not_initialized_components": 0,
+    "total_lines_of_code": 2054,
+    "total_todos": 1,
+    "components_with_tests": 0,
+    "components_with_docs": 1
+  },
+  "components_by_type": {
+    "agents": {
+      "count": 0,
+      "published": 0,
+      "components": []
+    },
+    "engines": {
+      "count": 0,
+      "published": 0,
+      "components": []
+    },
+    "utils": {
+      "count": 1,
+      "published": 0,
+      "components": [
+        "cc-orchestrator"
+      ]
+    },
+    "modules": {
+      "count": 0,
+      "published": 0,
+      "components": []
+    },
+    "tools": {
+      "count": 0,
+      "published": 0,
+      "components": []
+    },
+    "integrations": {
+      "count": 0,
+      "published": 0,
+      "components": []
+    }
+  },
+  "all_components": [
+    {
+      "name": "cc-orchestrator",
+      "type": "utils",
+      "path": "/Users/MAC/Documents/projects/caia/utils/parallel/cc-orchestrator",
+      "package_name": "@caia/util-cc-orchestrator",
+      "version": "1.0.0",
+      "description": "Parallel Claude Code orchestration for massive concurrent AI operations",
+      "status": "initialized",
+      "npm_published": false,
+      "github_url": null,
+      "dependencies": [
+        "p-queue",
+        "p-limit",
+        "bottleneck",
+        "eventemitter3",
+        "winston"
+      ],
+      "exports": [
+        "CCResult",
+        "CCInstance",
+        "OrchestratorConfig",
+        "CCOrchestrator",
+        "CCTask"
+      ],
+      "todos": [
+        {
+          "file": "src/index.ts",
+          "line": 431,
+          "content": "todos: ['TODO 1', 'TODO 2']"
+        }
+      ],
+      "test_coverage": null,
+      "documentation": {
+        "readme": true,
+        "api_docs": false,
+        "examples": false
+      },
+      "quality_metrics": {
+        "lines_of_code": 2054,
+        "test_files": 0,
+        "typescript": true,
+        "linting": false
+      },
+      "category": "parallel"
+    }
+  ]
+}

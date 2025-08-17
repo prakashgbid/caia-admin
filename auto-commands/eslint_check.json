@@ -1,0 +1,7 @@
+{
+  "name": "eslint_check",
+  "command": "cd /Users/MAC/Documents/projects/caia && npx eslint .",
+  "trigger": "session_start",
+  "enabled": true,
+  "created": "2025-08-16T21:13:09.045461"
+}

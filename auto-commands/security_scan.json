@@ -1,0 +1,7 @@
+{
+  "name": "security_scan",
+  "command": "cd /Users/MAC/Documents/projects/caia && npm audit",
+  "trigger": "session_start",
+  "enabled": true,
+  "created": "2025-08-16T21:13:09.045930"
+}

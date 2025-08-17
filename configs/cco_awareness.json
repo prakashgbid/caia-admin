@@ -1,0 +1,33 @@
+{
+  "cco_integration": {
+    "enabled": true,
+    "auto_detect_parallel_tasks": true,
+    "threshold_for_activation": 3,
+    "path": "/Users/MAC/Documents/projects/caia/packages/utils/cc-orchestrator",
+    "capabilities": {
+      "max_parallel_instances": 20,
+      "task_types": ["configuration", "implementation", "testing", "monitoring"],
+      "auto_invoke_for": [
+        "multiple_file_operations",
+        "batch_configurations",
+        "parallel_testing",
+        "multi_package_builds"
+      ]
+    },
+    "triggers": {
+      "keywords": ["parallel", "multiple", "batch", "all", "every", "each"],
+      "patterns": [
+        "implement all.*configurations",
+        "fix all.*packages",
+        "update every.*file",
+        "test all.*components"
+      ]
+    },
+    "usage_examples": [
+      "Implement all 82 CCU configurations",
+      "Fix TypeScript in all packages",
+      "Update every package.json",
+      "Test all components in parallel"
+    ]
+  }
+}

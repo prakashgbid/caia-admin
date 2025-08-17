@@ -1,0 +1,7 @@
+{
+  "name": "log_tail",
+  "command": "tail -5 /Users/MAC/Documents/projects/admin/logs/latest.log 2>/dev/null || echo 'No logs yet'",
+  "trigger": "session_start",
+  "enabled": true,
+  "created": "2025-08-16T21:13:09.046374"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "build_status",
+  "command": "cd /Users/MAC/Documents/projects/caia && npm run build:all",
+  "trigger": "session_start",
+  "enabled": true,
+  "created": "2025-08-16T21:13:09.045986"
+}

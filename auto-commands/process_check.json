@@ -1,0 +1,7 @@
+{
+  "name": "process_check",
+  "command": "ps aux | grep -E 'node|python' | head -5",
+  "trigger": "session_start",
+  "enabled": true,
+  "created": "2025-08-16T21:13:09.046311"
+}

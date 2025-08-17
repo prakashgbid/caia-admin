@@ -1,0 +1,7 @@
+{
+  "name": "caia_status_on_start",
+  "command": "/Users/MAC/Documents/projects/admin/scripts/caia_status.sh",
+  "trigger": "session_start",
+  "enabled": true,
+  "created": "2025-08-16T21:13:09.044730"
+}

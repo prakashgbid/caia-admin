@@ -1,0 +1,42 @@
+{
+  "last_updated": "2025-08-16T18:42:24.206484",
+  "summary": {
+    "total_components": 1,
+    "published_components": 0,
+    "initialized_components": 1,
+    "not_initialized_components": 0,
+    "total_lines_of_code": 4481,
+    "total_todos": 1,
+    "components_with_tests": 0,
+    "components_with_docs": 1
+  },
+  "components_by_type": {
+    "agents": {
+      "count": 0,
+      "published": 0
+    },
+    "engines": {
+      "count": 0,
+      "published": 0
+    },
+    "utils": {
+      "count": 1,
+      "published": 0
+    },
+    "modules": {
+      "count": 0,
+      "published": 0
+    },
+    "tools": {
+      "count": 0,
+      "published": 0
+    },
+    "integrations": {
+      "count": 0,
+      "published": 0
+    }
+  },
+  "high_priority_items": 0,
+  "medium_priority_items": 1,
+  "total_estimated_hours": 6
+}

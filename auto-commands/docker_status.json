@@ -1,0 +1,7 @@
+{
+  "name": "docker_status",
+  "command": "docker ps",
+  "trigger": "session_start",
+  "enabled": true,
+  "created": "2025-08-16T21:13:09.046036"
+}

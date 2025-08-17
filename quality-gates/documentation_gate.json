@@ -1,0 +1,15 @@
+{
+  "name": "documentation_gate",
+  "type": "quality_gate",
+  "enabled": true,
+  "config": {
+    "id": "C091",
+    "type": "QUALITY",
+    "name": "documentation_gate",
+    "required": [
+      "README",
+      "API"
+    ]
+  },
+  "created": "2025-08-16T21:17:16.745772"
+}

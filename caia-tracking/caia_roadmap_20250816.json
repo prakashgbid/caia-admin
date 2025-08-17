@@ -1,0 +1,15 @@
+[
+  {
+    "component": "cc-orchestrator",
+    "type": "utils",
+    "category": "parallel",
+    "current_status": "initialized",
+    "priority": "medium",
+    "actions": [
+      "Prepare for npm publication",
+      "Add unit tests",
+      "Add usage examples"
+    ],
+    "estimated_effort": 6
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "name": "typescript_check",
+  "command": "cd /Users/MAC/Documents/projects/caia && npx tsc --noEmit",
+  "trigger": "session_start",
+  "enabled": true,
+  "created": "2025-08-16T21:13:09.045194"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "context_summary",
+  "command": "python3 /Users/MAC/Documents/projects/admin/scripts/query_context.py --command summary",
+  "trigger": "session_start",
+  "enabled": true,
+  "created": "2025-08-16T21:13:09.045020"
+}

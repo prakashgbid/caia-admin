@@ -1,0 +1,7 @@
+{
+  "name": "roadmap_status",
+  "command": "head -20 /Users/MAC/Documents/projects/caia/ROADMAP.md",
+  "trigger": "session_start",
+  "enabled": true,
+  "created": "2025-08-16T21:13:09.046658"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "dependency_gate",
+  "type": "quality_gate",
+  "enabled": true,
+  "config": {
+    "id": "C090",
+    "type": "QUALITY",
+    "name": "dependency_gate",
+    "check": "vulnerabilities"
+  },
+  "created": "2025-08-16T21:17:16.745588"
+}

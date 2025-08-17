@@ -1,0 +1,7 @@
+{
+  "name": "dependency_check",
+  "command": "cd /Users/MAC/Documents/projects/caia && npm outdated",
+  "trigger": "session_start",
+  "enabled": true,
+  "created": "2025-08-16T21:13:09.045751"
+}
