@@ -1,4 +1,18 @@
-# Projects Admin System
+# CAIA Admin System
+
+## 🚀 Quick Start: CC Admin Commands
+
+Type `%` in Claude Code to see all available admin commands!
+
+### Most Used Commands
+- `%s` - Quick project status
+- `%c` - CAIA status
+- `%d` - Recent decisions
+- `%l` - Log a decision
+- `%p` - Log progress
+- `%qa` - Quality check
+
+📚 **[Full Command Documentation](docs/CC_ADMIN_COMMANDS.md)** | 🎓 **[Interactive Tutorial](docs/CC_ADMIN_TUTORIAL.md)**
 
 ## Overview
 

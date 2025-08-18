@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.coverage
+.pytest_cache/
+*.cover
+
+# Documentation
+docs/_build/
+site/
+_site/
