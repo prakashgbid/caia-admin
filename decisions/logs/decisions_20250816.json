@@ -33,5 +33,12 @@
     "text": "We decided to use parallel processing for better performance",
     "context": {},
     "tracker": "keyword_detector"
+  },
+  {
+    "timestamp": "2025-08-17T22:09:30.365021",
+    "trigger": "decided",
+    "text": "We decided to use parallel processing for better performance",
+    "context": {},
+    "tracker": "keyword_detector"
   }
 ]
